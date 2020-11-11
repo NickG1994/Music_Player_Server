@@ -7,8 +7,8 @@ const app = express();
 //Middleware
 app.use(bodyParser.json());
 app.use(cors());
-const posts = require('./Routes/api/posts');
-app.use('/api/posts', posts);
+const music = require('./Routes/api/music');
+app.use('/api/music', music);
 
 const port = process.env.PORT || 5000;
 

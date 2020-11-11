@@ -26,12 +26,12 @@ router.delete('/:id', async (req, res) => {
 
 async function LoadPostCollection() {
     const client = await mongodb.MongoClient.connect(
-        'mongodb+srv://dgaona2:Fire19941220!@vueexpress.igruc.mongodb.net/vueExpress?retryWrites=true&w=majorityy', 
+        'mongodb+srv://dgaona2:Fire19941220!@vueexpress.igruc.mongodb.net/music?retryWrites=true&w=majority', 
         {
         useNewUrlParser: true
     })
 
-    return client.db('vueExpress').collection('posts');
+    return client.db('music').collection('ApplicationMusic');
 }
 
 module.exports = router;
