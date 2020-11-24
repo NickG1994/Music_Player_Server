@@ -1,0 +1,623 @@
+*, body {
+    color: black;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    /* Layout */
+    .main-wrapper{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding: 1em;
+    }
+  
+    .left-container{
+      background-color: #E3E3E3;
+      width: 30%;
+      max-width: 30%;
+    }
+  
+    .right-container{
+      background-color: #EFEFEF;
+      width: 70em;
+      max-width: 70em ;
+    }
+  
+    #artist-section{ width: auto; height: auto; }
+  
+    #genre-section{
+      width: 25em;
+      height: auto;
+      margin-right: 1vh;
+    }
+  
+    #genre-section, #artist-section, .row-1-column-2{
+      display: inline-flex;
+      flex-direction: row;
+    }
+  
+    #artist-section{ margin-left:1vh; width:35em;}
+
+    .row { height: auto; width: auto; }
+  
+      /* Right Layout */
+    .top { padding: 2vh; }
+  
+    .middle { width: 95%; margin: 2vh auto; }
+    
+    .footer { 
+      background-color: #D2D2D2;
+      margin: 0 auto;
+      width: 90%;
+      height: 5.5vh;
+      padding: 2vh;
+    }
+  
+    .col-1-row-1{
+      margin-bottom: 5vh;
+      margin-top: 4vh;
+      display: flex;
+      flex-direction: column;
+      max-width: 150em;
+      flex-wrap: wrap;
+    }
+    /* End right Layout */
+  
+    /* End Layout */
+  
+    .music-app{
+      background-color: #D2D2D2;
+      margin: auto;
+      padding: 2%;
+  
+    }
+    
+    .music-app .application-title{
+      font-size: 3em;
+      font-weight: 700;
+      text-transform: uppercase;
+      width: auto;
+    }
+  
+    .music-app, .music-Header{ margin-bottom: 2vh; }
+  
+    .left-border{
+      border-left: 2px solid #000000;
+      width: 55%;
+      margin: 2vh auto;
+      padding: 1vh;
+    }
+  
+    .item{ display: flex; margin: 3vh 0 2vh 3vh }
+  
+    .btn{
+      font-size: 2vh;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 1.5vh;
+      width: 14vh;
+      max-width: 14vh;
+    }
+  
+    .title-container{
+      width:55%;
+      margin: 6vh 11vh;
+      text-align: left;
+    }
+  
+    .library-header{
+      margin-top: 4vh;
+    }
+  
+    .music-header, .library-header{
+      font-size: 2.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      justify-content: left;
+      flex-wrap: nowrap;
+    }
+  
+    /* Music Player */
+    .Music-Player-Top{
+      background-color: #707070;
+      padding: 2em;
+      height:auto;
+    }
+  
+    .Music-Player-Bottom{
+      background-color: #137FBE;
+      padding: 3vh;
+      height: auto;
+    }
+  
+    .player-img{
+      padding: 2vh;
+    }
+    
+    .player-img img{
+      width: 125px;
+      height: 125px;
+      max-width: 125px;
+      max-height: 125px;
+    }
+  
+    .data-container{ height: auto; width: auto; }
+  
+    .data-container .song-title{
+      font-size: 2em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1vh;
+    }
+  
+    .data-container .song-artist{
+      font-size: 2.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  
+    .song-artist, .song-title{ color: white; }
+  
+    .progress-container{
+      text-align: center;
+      height: 2vh;
+      width: 100%;
+      background-color: #FFFFFF;
+    }
+  
+    .progress{
+      margin: 1vh 0 0 0;
+      width: 50%;
+      height: 2vh;
+      background-color: #CACACA;
+    }
+  
+    .btnPrev, .btnNext{
+      margin: auto 1vh;
+      border-radius: 50%;
+      padding: 2vh 1.5vh 2vh 1.5vh;
+      width:5em;
+      height: 4em;
+      border: 2px solid #000000;
+      background-image: linear-gradient(180deg, #137FBE, #CACACA);
+    }
+  
+    .btnPlay, .btnPause{
+      margin: auto 1vh;
+      border-radius: 50%;
+      padding: 3vh 2vh 3vh 2vh;
+      width: 10em;
+      height:8em;
+      border: 2px solid #000000;
+      background-image: linear-gradient(180deg, #137FBE, #CACACA);
+    }
+  
+    button:hover{
+      background-image: linear-gradient(180deg, #CACACA, #CACACA);
+      color: whitesmoke;
+    }
+  
+    .slider-container{ margin: 4vh auto; width: 60%; }
+  
+    .slider{
+      width: 100%;
+      appearance: none;
+      outline: none;
+      height: 7px;
+      border-radius: 3px;
+    }
+    
+    /* End Music Player */
+  
+    /* Start right Top */
+    .padding{ padding: 4vh; }
+
+    .top-container {
+      display: flex;
+    }
+
+    .btnSearch{
+      /*margin-right: 1vh;*/
+      padding: 1.5em 2em 1.5em 2em;
+      width: 12em;
+      height: 6em;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: .5em;
+    }
+  
+     .txtSearch{
+      padding: 1.5em 2em 1.5em 2em;
+      width: 8em;
+      height: 3em;
+    }
+  
+    .btnSetting{
+      margin-right: 1em;
+      padding: 1.5em 2em 1.5em 2em;
+      width: 5em;
+      height: 5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1em;
+    }
+    /* End right Top */
+  
+    /* Middle layout */
+    /*****Fix this from the right*******/
+    .row {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+  }
+
+    /* ShowCase */
+    .showcase-container{
+        background-image: url('../../public/explore-section.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height: 55vh;
+    }
+
+    .explore-container, .genre-container, .artist-container{
+      margin-top: 2vh;
+      padding: 2vh;
+      background-color: #D2D2D2;
+    }
+  
+    .showcase-content { width: 100%; height: 100%; }
+  
+    /* End ShowCase */
+  
+    .card{ background-color:#9895E7; }
+  
+    .card-item {
+      margin: 1vh 1vh;
+      width: 25vh;
+      height: 4vh;
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  
+    .col-4-row-1 { display: inline-block; margin: 1vh 1vh; }
+  
+    .music-cover{ width: 8em; height: 8em; }
+  
+    .artist-cover { width: 3em; height: 3em; }
+  
+    .btn-explore-Play{
+      width: 12vh;
+      height: 14vh;
+      font-size: 2em;
+      margin: 1vh;
+      border-radius: 15%;
+    }
+  
+    .btn-artist-Play{
+      width: 4em;
+      height: 5em;
+      font-size:1.3em;
+      margin: 1vh;
+      border-radius: 15%;
+      align-items: center;
+    }
+  
+    .btn-artist-Play img{ width: 4em; height: 3em; }
+
+  /* Genre Section */
+    .explore-header{
+      color: #FFFFFF;
+      font-size: 6vh;
+      text-align: left;
+      margin-left: 1.5vh;
+    }
+  
+    .genre-table{
+      width: auto;
+      max-width: auto;
+      display: flex;
+      flex-flow:wrap;
+    }
+  
+    .genre-row { margin: 2vh auto; display: block; }
+  
+    .genre-cell {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      margin: 2.5em 1em;
+      font-size: 1.5vh;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    
+    .cards-container { width: 85%; }
+    
+    .genre-header{
+      text-align: left;
+      color: #FF72B3;
+      font-size: 6vh;
+    }
+
+    .genre-container { overflow: auto; height: 0;  } 
+  /* End Genre Section*/
+
+  /* Right-Middle-Layout */
+    /* Artist Section */
+  
+    .artist-container, .genre-container{ height: 78vh; }
+  
+    .artist-container{ width: 100%; }
+  
+    .artist-card {
+      display: inline-flex;
+      margin: 1vh auto;
+      width: 90%;
+      background-color: #AAA9AD;
+      padding: 1vh;
+     }
+  
+    .artist-card-item {
+      margin: 0 1vh;
+      width: 20%;
+      display: inline-flex;
+      align-items: center;
+    }
+  
+    .artist-header { 
+      margin-left: .5em;
+      text-align: left;
+      color: #DE6EFF;
+      font-size: 3em;    
+     } 
+  
+    /* End Artist Section */
+  /* End Right-Middle-Layout */
+  
+    /* genre button styles */
+    .btnRock{
+      background-color: #0ECFD4;
+      padding: 1vh;
+      max-width: 300px;
+      width:15vh;
+      height: 8vh;
+    }
+    .btnPop{
+      background-color: #1BE67A;
+      padding: 1vh;
+      max-width: 300px;
+      width:20vh;
+      height: 8vh;
+    }
+    .btnDance{
+      background-color: #DDF82A;
+      padding: 1vh;
+      max-width: 300px;
+      width:20vh;
+      height: 8vh;
+    }
+  
+    .btnCountry{
+      background-color: #C94BDC;
+      padding: 1vh;
+      max-width: 300px;
+      width:15vh;
+      height: 8vh;
+    }
+  
+    .btnAnime{
+      background-color: #8970FF;
+      padding: 1vh;
+      max-width: 300px;
+      width:17.5vh;
+      height: 8vh;
+    }
+
+    .btnRock-N-Roll{
+      background-color: #FF4E52;
+      padding: 1vh;
+      max-width: 300px;
+      width:17.5vh;
+      height: 8vh;
+    }
+  
+    .btnJazz{
+      background-color: #6DDC4B;
+      padding: 1vh;
+      max-width: 300px;
+      width:20vh;
+      height: 8vh;
+    }
+  
+    .btnRapp{
+      background-color: #FF8F4E;
+      padding: 1vh;
+      max-width: 300px;
+      width:15vh;
+      height: 8vh;
+    }
+
+    .card-title { font-size: 0.8em; }
+
+    .card-artist { font-size: 0.9em; }
+  
+    .genre-container button { border-radius:15%; }
+  
+    /* End genre button styles */
+  
+    .showcase-container, .explore-container, .genre-container, .artist-container {
+      border-radius: 3%;
+    }
+  
+    /* Media Queries  */
+    @media screen and (max-width:1200px){
+
+      .btnSearch,.txtSearch ,.btnSetting {
+        margin: 1em 0;
+      }
+
+      .row {
+        align-items: center;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .col { 
+        display: block;
+      }
+      /* Layout */
+      .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: auto;
+        width: 100%;
+      }
+  
+      .left-container {
+        background-color: #E3E3E3;
+        width: auto;
+        max-width: 100%;
+      }
+  
+    #genre-section, #artist-section { display: inline-flex; flex-direction: column; }
+  
+    .btnPrev, .btnNext{
+      margin: auto 1vh;
+      border-radius: 50%;
+      padding: 2vh 1.5vh 2vh 1.5vh;
+      width: auto;
+      height: 35%;
+      border: 2px solid #000000;
+    }
+  
+    .btnPlay, .btnPause{
+      margin: auto 1vh;
+      border-radius: 50%;
+      padding: 3vh 2vh 3vh 2vh;
+      width: 30%;
+      height:50%;
+      border: 2px solid #000000;
+    }
+  
+    .right-container { background-color: #EFEFEF; width: auto; max-width: 100%; }
+  
+    .Music-Player-Top { height: 45vh; }
+  
+    .Music-Player-Bottom{ width: auto; height: auto; }
+  
+      .btnPlay, .btnNext, .btnPrev, .btnPause, .slider-container{
+        display: flex;
+        flex-direction: row;
+        margin: 2vh auto;
+        text-align: center;
+        width: auto;
+        height: auto;
+      }
+  
+      .right-container, .main-wrapper, .left-container { max-width: auto; }
+  
+      #artist-section, #genre-section, .explore-container { width: auto; height: auto; }
+  
+      .artist-container {
+       margin-left: 0;
+       width: auto;
+       height: auto;
+      } 
+  
+      .left-border { text-align: center; }
+  
+      .left-border .btn { text-align: center; font-size: 1.2em; }
+
+      #Music-Player, .Player-container{ 
+        width: 100%;
+        z-index: 2;
+      }
+  
+      .footer { margin-top: auto; height: 15vh; }
+
+      #genre-section, #artist-section, .row-1-column-2{
+        display: inline-block;
+        flex-direction: row;
+      }
+
+      .genre-row, #genre-section, .artist-section {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+      
+
+    /* genre button styles */
+    .btnRock{
+      background-color: #0ECFD4;
+      padding: 1em;
+      max-width: 200em;
+      width:10em;
+      height: 6em;
+    }
+    .btnPop{
+      background-color: #1BE67A;
+      padding: 1vh;
+      max-width: 300px;
+      width:15em;
+      height: 6em;
+    }
+    .btnDance{
+      background-color: #DDF82A;
+      padding: 1vh;
+      max-width: 300px;
+      width:15em;
+      height: 6em;
+    }
+  
+    .btnCountry{
+      background-color: #C94BDC;
+      padding: 1vh;
+      max-width: 300px;
+      width:10em;
+      height: 6em;
+    }
+  
+    .btnAnime{
+      background-color: #8970FF;
+      padding: 1vh;
+      max-width: 300px;
+      width:16.5em;
+      height: 8em;
+    }
+  
+  
+    .btnRock-N-Roll{
+      background-color: #FF4E52;
+      padding: 1vh;
+      max-width: 300px;
+      width:17.5vh;
+      height: 8vh;
+    }
+  
+    .btnJazz{
+      background-color: #6DDC4B;
+      padding: 1vh;
+      max-width: 300px;
+      width:20vh;
+      height: 8vh;
+    }
+  
+    .btnRapp{
+      background-color: #FF8F4E;
+      padding: 1vh;
+      max-width: 300px;
+      width:15vh;
+      height: 8vh;
+    }
+    }
