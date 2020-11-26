@@ -178,8 +178,6 @@
     color: #FB7B04;
     display: inline-block;
 }
-.service-content {
-}
 
 .header-service {
     text-transform: uppercase;
@@ -206,7 +204,6 @@
 }
 
 .design-ser {
-    width: 20rem;
 }
 
 .new-con {
@@ -222,11 +219,22 @@
 }
 
 .design-ser, .new-con, .home-rem, .home-add {
+    margin: 0 2% 8% 2%;
+    display: inline-flex;
     color: black;
 }
 
+.design-ser img, .new-con img, .home-rem img, .home-add img{ 
+    width: 16rem;
+    height: 19rem;
+    border: 2px solid #FB7B04;
+}
+
 .card-text {
-    color: black;
+    background-color: #000000;
+    color: #FB7B04;
+    padding: 4%;
+    text-align: center;
 }
 
 

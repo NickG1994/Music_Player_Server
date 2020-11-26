@@ -60,10 +60,10 @@
         </b-col>
         
         <b-col class="service-Right">
-          <b-card img-src="https://picsum.photos/900/250/?image=3" class="design-ser"><b-card-text class="card-text">Home Services</b-card-text></b-card>
-          <b-card class="new-con"><b-card-text class="card-text">New Construction</b-card-text></b-card>
-          <b-card class="home-rem"><b-card-text class="card-text">Home Remodeling</b-card-text></b-card>
-          <b-card class="home-add"><b-card-text class="card-text">Home Add</b-card-text></b-card>
+          <b-card img-src="https://placekitten.com/1000/300" class="design-ser"> <b-card-text class="card-text">Home Services</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="new-con"> <b-card-text class="card-text">New Construction</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-rem"> <b-card-text class="card-text">Home Remodeling</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-add"> <b-card-text class="card-text">Home Add</b-card-text> </b-card>
         </b-col>
       </b-container>
     <!-- End Home Services Section -->
