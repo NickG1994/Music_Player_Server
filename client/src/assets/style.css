@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*, body{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    color: #F9F6F6;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .1vw;
+}
+.main-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #231F20;
+    border-bottom: 1em solid #FB7B04;
+    padding: 1em;
+    max-width: 100em;
+    max-height: 10em;
+}
+
+.contents {
+    width: 100%;
+    align-items: center;
+}
+
+.margin-left {
+    justify-content: left;
+    align-items: center;
+}
+
+.margin-center {
+    text-align: center;
+}
+
+.logo-img{
+    width: 6vw;
+    height: 6vw;
+}
+
+.company-name {
+    font-size: 1.5vw;
+}
+
+.number {
+    font-size: 1.5vw;
+}
+
+.menu {
+    align-items: center;
+}
+
+.menu-item link {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.menu, .menu-item, link {
+    padding-left: 1.3vw;
+}
+
+.link {
+    color: white;
+} 
+
+.home-link {
+    color:  #FB7B04;
+    font-size: 2vw;
+}
+
+.service-link {
+
+}
+
+.gallery-link {
+
+}
+
+.about-link {
+
+}
+
+.contact-link {
+
+}
+
+
+.item {
+    display: inline;
+    width: auto;
+    height: auto;
+}
+
+.hero {
+    display: inline-flex;
+    background-color: #fff;
+    width: 100%;
+    background-color:#FB7B04;
+}
+
+.showcase-container {
+    width: 100%;
+    height: 10px;
+}
+
+.left {
+    width: 50em;
+    height: 35em;
+}
+
+.right {
+    width:60%;
+    height: 35em;
+    background-color: black;
+} 
+
+.background-image {
+    width: auto;
+    height: auto;
+    background-image: url('./hero-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-wrapper {
+    text-align: center;
+    padding: 16% 4% 12% 4%;
+
+}
+
+.welcome {
+    font-size: 2.5vw;
+}
+
+.trust {
+    font-size: 1.9vw;
+}
+
+.contact {
+    font-size: 1.6vw;
+}
+
+.content {
+    margin: 5vw auto 1vw auto;
+}
+
+.btn {
+    padding: 2vw;
+    border-radius: 10%;
+}
+
+.bottom-border {border-bottom: 15px solid #FB7B04;}
+
+.services {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.service-left-container , .service-left-container{
+    margin: 1%;
+    width: 45vw;
+    height: auto;
+    padding: 5%;
+    color: #FB7B04;
+    border: 2px solid #707070;
+    display: inline-block;
+}
+.service-Right {
+    margin: 1%;
+    width: 45vw;
+    height: auto;
+    color: #FB7B04;
+    display: inline-block;
+}
+.service-content {
+}
+
+.header-service {
+    text-transform: uppercase;
+    font-size: 3.5vw;
+}
+
+.service-Right {
+    width: 40px;
+    color: black;
+    display: inline-block;
+}
+
+.paragraph {
+    font-size: 2vw;  
+}
+
+.paragraph-2 {
+    line-height: 5ch;
+    font-size: 1.4vw;  
+}
+
+.header-service, .paragraph, .paragraph-2 {
+    color: #FB7B04;
+}
+
+.design-ser {
+    width: 20rem;
+}
+
+.new-con {
+
+}
+
+.home-rem {
+
+}
+
+.home-add {
+
+}
+
+.design-ser, .new-con, .home-rem, .home-add {
+    color: black;
+}
+
+.card-text {
+    color: black;
+}
+
+
