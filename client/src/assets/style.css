@@ -7,42 +7,65 @@
     margin: 0;
     padding: 0;
     letter-spacing: .1vw;
+    transition: 0.2s;
 }
 .main-wrapper {
+    position: relative;
     margin: 0;
     padding: 0;
 }
 
 .header-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
     background-color: #231F20;
     border-bottom: 1em solid #FB7B04;
     padding: 1em;
+    width: 100%;
     max-width: 100em;
     max-height: 10em;
+    transition: 0.6s;
+    z-index: 50;
 }
 
+.header-container #header
+
 .contents {
+    position: relative;
     width: 100%;
     align-items: center;
 }
 
+.hero, .services, .gallery {
+    position: relative;
+    top: 8em;
+}
+
 .margin-left {
+    position: relative;
     justify-content: left;
     align-items: center;
 }
 
 .margin-center {
+    position: relative;
+    display: inline;
+    height: 2vw;
+    top: 2vw;
     text-align: center;
+    align-items: center;
 }
 
 .logo-img{
+    position: relative;
     width: 6vw;
     height: 6vw;
 }
 
 .company-name {
+    position: relative;
     font-size: 1.5vw;
 }
 
@@ -51,15 +74,18 @@
 }
 
 .menu {
+    position: relative;
     align-items: center;
 }
 
 .menu-item link {
+    position: relative;
     text-decoration: none;
     font-size: 2vw;
 }
 
 .menu, .menu-item, link {
+    position: relative;
     padding-left: 1.3vw;
 }
 
@@ -129,8 +155,7 @@
 
 .content-wrapper {
     text-align: center;
-    padding: 16% 4% 12% 4%;
-
+    padding: 9% 4% 12% 4%;
 }
 
 .welcome {
@@ -152,6 +177,10 @@
 .btn {
     padding: 2vw;
     border-radius: 10%;
+    background-color: #FB7B04;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 70;
 }
 
 .bottom-border {border-bottom: 15px solid #FB7B04;}
@@ -162,11 +191,11 @@
     height: auto;
 }
 
-.service-left-container , .service-left-container{
-    margin: 1%;
+.service-left-container{
+    margin: 1% 1% 0 1%;
     width: 45vw;
-    height: auto;
-    padding: 5%;
+    height: 52vw;
+    padding: 2% 5%;
     color: #FB7B04;
     border: 2px solid #707070;
     display: inline-block;
@@ -225,8 +254,8 @@
 }
 
 .design-ser img, .new-con img, .home-rem img, .home-add img{ 
-    width: 16rem;
-    height: 19rem;
+    width: 19vw;
+    height: 21vw;
     border: 2px solid #FB7B04;
 }
 
@@ -236,5 +265,14 @@
     padding: 4%;
     text-align: center;
 }
+
+.gallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #231F20;
+    padding: 1%;
+}
+
 
 

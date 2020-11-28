@@ -2,11 +2,11 @@
   <b-container class="main-wrapper" fluid>
 
     <!-- Header Section -->
-    <b-container class="header-container" fluid>
+    <b-container id="header" class="header-container" fluid>
 
-      <b-row class="contents">
+      <b-row class="contents" style="width:100%">
         
-        <b-row class="margin-left" >
+        <b-row class="margin-left">
           <b-col> <img class="logo-img" src="../assets/Logo.png" alt=""> </b-col>
           <b-col> <h3 class="item company-name">ilverStone</h3> </b-col>
         </b-row>
@@ -52,10 +52,10 @@
           <b-row class="service-left"><p class="service-content paragraph">Turn to us for home remodeling services in Mission, TX</p></b-row>
           <b-row class="service-left"><p class="service-content paragraph-2"><br> Whether you're starting your home from scratch or want to revamp 
                                       your house, turn to the affordable general contractors of Silverstone
-                                      Builders, LLC. We specialize in new construction and home remodeling services in 
+                                      Builders, LLC. <br> We specialize in new construction and home remodeling services in 
                                       Mission, TX. Every service we do is tailored to the wants and needs 
                                       of each client. You'll work one-on-one with us throughout your 
-                                      entire project. You can expect nothing but high-quality results from us. 
+                                      entire project. You can expect nothing but high-quality results from us. <br>
                                       Contact us now to get a free estimate on new constructior home remodeling services.</p></b-row>
         </b-col>
         
@@ -68,6 +68,27 @@
       </b-container>
     <!-- End Home Services Section -->
 
+     <b-container class="gallery" fluid>
+        <b-col class="gallery-left-container">
+          <b-row class="gallery-left"><h1 class="service-content header-service"> Home Service </h1></b-row>
+          <b-row class="gallery-left"><p class="service-content paragraph">Turn to us for home remodeling services in Mission, TX</p></b-row>
+          <b-row class="gallery-left"><p class="service-content paragraph-2"><br> Whether you're starting your home from scratch or want to revamp 
+                                      your house, turn to the affordable general contractors of Silverstone
+                                      Builders, LLC. We specialize in new construction and home remodeling services in 
+                                      Mission, TX. Every service we do is tailored to the wants and needs 
+                                      of each client. You'll work one-on-one with us throughout your 
+                                      entire project. You can expect nothing but high-quality results from us. 
+                                      Contact us now to get a free estimate on new constructior home remodeling services.</p></b-row>
+        </b-col>
+        
+        <b-col class="gallery-Right">
+          <b-card img-src="https://placekitten.com/1000/300" class="design-ser"> <b-card-text class="card-text">Home Services</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="new-con"> <b-card-text class="card-text">New Construction</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-rem"> <b-card-text class="card-text">Home Remodeling</b-card-text> </b-card>
+          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-add"> <b-card-text class="card-text">Home Add</b-card-text> </b-card>
+        </b-col>
+      </b-container>
+
   </b-container>
 </template>
 
@@ -75,6 +96,10 @@
 export default {
   name: 'SilverStone',
 }
+window.addEventListener("scroll", function(){
+var header = this.document.getElementById("header");
+header.classList.toggle("sticky", window.scrollY > 0);
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
