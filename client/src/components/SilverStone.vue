@@ -68,25 +68,65 @@
       </b-container>
     <!-- End Home Services Section -->
 
-     <b-container class="gallery" fluid>
-        <b-col class="gallery-left-container">
-          <b-row class="gallery-left"><h1 class="service-content header-service"> Home Service </h1></b-row>
-          <b-row class="gallery-left"><p class="service-content paragraph">Turn to us for home remodeling services in Mission, TX</p></b-row>
-          <b-row class="gallery-left"><p class="service-content paragraph-2"><br> Whether you're starting your home from scratch or want to revamp 
-                                      your house, turn to the affordable general contractors of Silverstone
-                                      Builders, LLC. We specialize in new construction and home remodeling services in 
-                                      Mission, TX. Every service we do is tailored to the wants and needs 
-                                      of each client. You'll work one-on-one with us throughout your 
-                                      entire project. You can expect nothing but high-quality results from us. 
-                                      Contact us now to get a free estimate on new constructior home remodeling services.</p></b-row>
-        </b-col>
-        
-        <b-col class="gallery-Right">
-          <b-card img-src="https://placekitten.com/1000/300" class="design-ser"> <b-card-text class="card-text">Home Services</b-card-text> </b-card>
-          <b-card img-src="https://picsum.photos/900/250/?image=3" class="new-con"> <b-card-text class="card-text">New Construction</b-card-text> </b-card>
-          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-rem"> <b-card-text class="card-text">Home Remodeling</b-card-text> </b-card>
-          <b-card img-src="https://picsum.photos/900/250/?image=3" class="home-add"> <b-card-text class="card-text">Home Add</b-card-text> </b-card>
-        </b-col>
+     <b-container class="gallery" fluid> 
+       <b-row><h3 class="gallery-h">Gallery</h3></b-row>
+       <div class="border"></div>
+
+       <div class="inner-gallery">
+        <div class="background1 column-span">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1" >
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1 row-span">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+        <div class="background1">
+          <a href="#"></a>
+        </div>
+
+       </div>
+
       </b-container>
 
   </b-container>
